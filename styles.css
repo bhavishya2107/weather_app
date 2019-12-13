@@ -5,4 +5,26 @@ body{
 }
 .container{
   max-width: 400px;
+  /* padding: 50px; */
+}
+
+.day {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 32px;
+  font-weight: 700;
+  color: silver;
+  display: inline;
+  position: relative;
+  top: 300px;
+  left: 80px;
+  z-index: 100;
+}
+
+.icon {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
+   
 }
