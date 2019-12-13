@@ -6,6 +6,7 @@ const icon = document.querySelector('.icon img')
 const day = document.querySelector('.day')
 const body = document.querySelector('body')
 const label = document.querySelector('label')
+const img = document.querySelector('.image-acc')
 
 const updateUI = (data) => {
 
@@ -50,6 +51,10 @@ const updateUI = (data) => {
     if(card.classList.contains('d-none')){
         card.classList.remove('d-none')
         // card.classList.add('animated','bounceInUp')
+    }
+
+    if(img.classList.contains('d-none')){
+        img.classList.remove('d-none')
     }
 }
 
