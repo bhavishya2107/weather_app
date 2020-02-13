@@ -1,4 +1,4 @@
-const key = 'LCGtvRutVDBqp9d3j6zUheehfKuazX7X';
+const key = 'B3HG7SKYdtiKAQDsU5R2JQAs2uz1zquB';
 
 
 //get city code
